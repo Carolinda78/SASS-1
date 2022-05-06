@@ -1,0 +1,23 @@
+$color:rgb(170, 215, 229);
+$tipografia1: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+header{
+    font-family: $tipografia1;
+    background-color: $color;
+    height: 40px;
+    nav{
+        text-align: center;
+        .primer-ancla{
+            color: rgb(241, 23, 23);
+        }
+        a{
+            font-family:$tipografia1;
+            text-decoration: none;
+            font-size: xx-large;
+            &:hover{
+                color: rgb(17, 255, 0) ;
+
+            }
+        }
+    }
+}
